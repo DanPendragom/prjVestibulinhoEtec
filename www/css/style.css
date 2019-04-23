@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'AVENGEANCEHEROICAVENGERAT';
+    src: url('../fonts/AVENGEANCEHEROICAVENGERAT.eot');
+    src: url('../fonts/AVENGEANCEHEROICAVENGERAT.eot') format('embedded-opentype'),
+         url('../fonts/AVENGEANCEHEROICAVENGERAT.woff2') format('woff2'),
+         url('../fonts/AVENGEANCEHEROICAVENGERAT.woff') format('woff'),
+         url('../fonts/AVENGEANCEHEROICAVENGERAT.ttf') format('truetype'),
+         url('../fonts/AVENGEANCEHEROICAVENGERAT.svg#AVENGEANCEHEROICAVENGERAT') format('svg');
+}
+#pg1{
+  /* BACKGROUND - SE HOUVER */
+}
+div.menuDinamico{
+  margin-bottom: -48px;
+}
+section.blocos{
+  width: 100vw;
+  height: 54vh;
+}
+section#pg1{
+  background-color:white;
+  color: black;
+}
+section#pg1 h1{
+  margin-top: 50px;
+  padding: 0;
+  font-size: 20px;
+  font-family: AVENGEANCEHEROICAVENGERAT;
+}
+section#pg1 img{
+  display: block;
+  padding-top: 0px;
+  margin-top: -80px;
+  width: 105%;
+}
+section#pg2{
+  background-color: yellow;
+}
+section#pg3{
+  background-color: blue;
+}
+section#pg4{
+  background-color: red;
+}
+section#pg5{
+  background-color: green;
+}
+section#pg6{
+  background-color: yellow;
+}
+section#pg7{
+  background-color: blue;
+}

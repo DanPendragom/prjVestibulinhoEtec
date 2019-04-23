@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Links para menu dinâmico  -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/component2.css" />
+  <!-- SCRIPT menu dinâmico  -->
+  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script> 
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"> </script> 
+  <!--INSTALAÇÃO VIA CDN -->
+  <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+  <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>  -->
+  <!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  -->
+  <script>
+  $(document).ready(function(){
+    $("#insc").hide();
+    $("#inst").hide();
+    $("#btnInsc").click(function(){
+      $("#insc").fadeToggle();
+    });
+    $("#btnInst").click(function(){
+      $("#inst").fadeToggle();
+    });
+  });
+  </script> 
+</head>
+<body>
+  <div class="menuDinamico">
+    <img style="width:100%;"src="img/backgroundApp.jpg" alt="">
+			<div class="component">
+				<!-- INICIO DO MENU -->
+				<button class="cn-button" id="cn-button">SAIBA+</button>
+				<div class="cn-wrapper" id="cn-wrapper">
+					<ul>
+						<li id="opc1"><a href="#pg2"><span>Progr.</span></a></li>
+						<li id="opc2"><a href="#"><span>Manut.</span></a></li>
+						<li><a href="#"><span>Edific.</label></span></a></li>
+						<li><a href="#"><span>Sobre</label></span></a></li>
+						<li><a href="#"><span>Turismo</span></a></li>
+						<li><a href="#"><span>Enferm.</span></a></li>
+						<li><a href="#"><span>Admin</span></a></li>
+					 </ul>
+				</div>
+				<!-- FIM -->
+			</div>
+		</div><!-- /CONTAINER -->
+     <!-- PRIMEIRA TELA-->
+    <!-- PÁGINAS DE NAVEGAÇÃO DINÂMICA -->
+    <section class="sections">
+      <section class="blocos" id="pg1">
+         <div class="sobreStyle" id="sobre">
+           <div class="container row">
+             <div class="col-xs-12">
+               <h1>AVANTE  VESTIBULANDOS!</h1>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-6">
+              <!-- INCRIÇÃO -->
+              <button id="btnInsc">Inscreva-se</button>
+              <aside class="asideSectionStyle" id="insc">
+                <h4>Incrições de 10/04 até as 15h do dia 15/05/2019</h4>
+                <h4>Prova 16/06</h4>
+                <a href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp"><p>Iniciar Inscrição</p></a>
+              </aside></br>
+              <!-- INSTITUCIONAL -->
+              <button id="btnInst">Institucional</button>
+              <aside class="asideSectionStyle" id="inst">
+                <h4>Incrições de 10/04 até as 15h do dia 15/05/2019</h4>
+                <h4>Prova 16/06</h4>
+                <p>O Centro Paula Souza (CPS) é uma autarquia do Governo do Estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico. Presente em aproximadamente 300 municípios, a instituição administra 223 Escolas Técnicas (Etecs) e 73 Faculdades de Tecnologia (Fatecs) estaduais, com 291 mil alunos em cursos técnicos de nível médio e superiores tecnológicos.</p>
+
+                <p>As Etecs atendem aproximadamente 208 mil estudantes nos Ensinos Técnico, Médio e Técnico Integrado ao Médio, com 151 cursos técnicos para os setores industrial, agropecuário e de serviços, incluindo habilitações nas modalidades presencial, semipresencial, online, Educação de Jovens e Adultos (EJA) e especialização técnica.  </p>
+              </aside></br>
+              <button id="btnGps">Local</button>
+              <aside class="asideSectionStyle" id="gps">
+                <!-- O MAPA AQUI -->
+              </aside>
+             </div>
+             <div class="container row col-xs-6">
+               <img src="img/nick2.png" alt="">
+             </div>
+           </div>
+         </div>
+      </section>   
+     
+    </section>
+    <!-- SCRIPTS DO MENU -->
+		<script src="js/polyfills.js"></script>
+		<script src="js/demo2.js"></script>
+		<script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>
+</body>
+</html>
