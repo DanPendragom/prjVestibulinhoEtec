@@ -28,11 +28,15 @@
   $(document).ready(function(){
     $("#insc").hide();
     $("#inst").hide();
+    $("#gps").hide();
     $("#btnInsc").click(function(){
-      $("#insc").fadeToggle();
+      $("#insc").slideToggle(800);
     });
     $("#btnInst").click(function(){
-      $("#inst").fadeToggle();
+      $("#inst").slideToggle(800);
+    });
+     $("#btnGps").click(function(){
+      $("#gps").slideToggle(800);
     });
   });
   </script> 
@@ -65,38 +69,33 @@
            <div class="container row">
              <div class="col-xs-12">
                <h1>AVANTE  VESTIBULANDOS!</h1>
+               <img src="img/nick2.png" alt="">
              </div>
            </div>
-           <div class="row">
-             <div class="col-xs-6">
+           <div class="botoesStyle row">
+             <div class="col-xs-12">
               <!-- INCRIÇÃO -->
-              <button id="btnInsc">Inscreva-se</button>
-              <aside class="asideSectionStyle" id="insc">
+              <button class="btnSobre" id="btnInsc">+</button>
+              <aside class="container asideSectionStyle" id="insc">
                 <h4>Incrições de 10/04 até as 15h do dia 15/05/2019</h4>
                 <h4>Prova 16/06</h4>
-                <a href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp"><p>Iniciar Inscrição</p></a>
+                <a href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp">Iniciar Inscrição</a>
               </aside></br>
               <!-- INSTITUCIONAL -->
-              <button id="btnInst">Institucional</button>
-              <aside class="asideSectionStyle" id="inst">
-                <h4>Incrições de 10/04 até as 15h do dia 15/05/2019</h4>
-                <h4>Prova 16/06</h4>
-                <p>O Centro Paula Souza (CPS) é uma autarquia do Governo do Estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico. Presente em aproximadamente 300 municípios, a instituição administra 223 Escolas Técnicas (Etecs) e 73 Faculdades de Tecnologia (Fatecs) estaduais, com 291 mil alunos em cursos técnicos de nível médio e superiores tecnológicos.</p>
+              <button class="btnSobre" id="btnInst">+</button>
+              <aside class="container asideSectionStyle" id="inst">
+                <p><span>O Centro Paula Souza (CPS)</span> é uma instituição de ensino do Governo do Estado de São Paulo presente em aproximadamente 300 municípios, ele administra 223 Escolas Técnicas (Etecs) com 291 mil alunos em cursos técnicos de nível médio e superiores tecnológicos.</p>
 
                 <p>As Etecs atendem aproximadamente 208 mil estudantes nos Ensinos Técnico, Médio e Técnico Integrado ao Médio, com 151 cursos técnicos para os setores industrial, agropecuário e de serviços, incluindo habilitações nas modalidades presencial, semipresencial, online, Educação de Jovens e Adultos (EJA) e especialização técnica.  </p>
               </aside></br>
-              <button id="btnGps">Local</button>
-              <aside class="asideSectionStyle" id="gps">
-                <!-- O MAPA AQUI -->
+              <button class="btnSobre" id="btnGps">+</button>
+              <aside class="container asideSectionStyle" id="gps">
+                <h1>o mapa</h1>
               </aside>
-             </div>
-             <div class="container row col-xs-6">
-               <img src="img/nick2.png" alt="">
              </div>
            </div>
          </div>
       </section>   
-     
     </section>
     <!-- SCRIPTS DO MENU -->
 		<script src="js/polyfills.js"></script>
