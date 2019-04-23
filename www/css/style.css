@@ -10,6 +10,53 @@
 #pg1{
   /* BACKGROUND - SE HOUVER */
 }
+p , h4{
+}
+.asideSectionStyle a{
+  color: rgb(211, 33, 33);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 15px 15px;  
+}
+.asideSectionStyle a:hover{
+  font-size: 20px;
+  transition: 0.8s;
+  border: 1px solid red;
+}
+.asideSectionStyle{
+  margin: 5px 15px 5px 15px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.479); 
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.botoesStyle{
+  position: absolute;
+  margin-top:-250px;
+  border-radius: 5%;
+}
+/*algo aleatorio */
+p{
+  text-align: justify;
+  text-indent: 1.5em;
+}
+span{
+  font-weight: bolder;
+}
+button.btnSobre{
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(150, 0, 125);
+  font-size: 25px;
+  margin-bottom: 5px;
+  padding: 5px 15px 2px 3px;
+  border-radius: 0px 15px 15px 0px;
+  border: none;
+  outline: none;
+}
+button.btnSobre:hover{
+  padding: 8px 18px 4px 6px;
+}
 div.menuDinamico{
   margin-bottom: -48px;
 }
@@ -29,9 +76,10 @@ section#pg1 h1{
 }
 section#pg1 img{
   display: block;
+  float: right;
   padding-top: 0px;
   margin-top: -80px;
-  width: 105%;
+  width: 50%;
 }
 section#pg2{
   background-color: yellow;
