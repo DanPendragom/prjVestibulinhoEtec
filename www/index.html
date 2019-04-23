@@ -39,6 +39,12 @@
       $("#gps").slideToggle(800);
     });
   });
+  $(document).on('click','#inst',function(){
+  navigator.notification.vibrate(6000);
+});
+$(document).on('click','#btnGps',function(){
+  navigator.notification.beep(40);
+});
   </script> 
 </head>
 <body>
