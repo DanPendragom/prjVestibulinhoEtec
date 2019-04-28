@@ -16,3 +16,7 @@ $(document).on('click','#turismo',function(){
   navigator.notification.alert("O Técnico em Guia de Turismo é o profissional responsável por orientar e conduzir pessoas ou grupos durante traslados, passeios, visitas e viagens. Um Técnico em Guia de Turismo informa sobre aspectos socioculturais, históricos, ambientais, geográficos e outros de interesse do turista.",retorno,"Técnico em Turismo","Fechar");
 });
 
+
+$(document).on('click','#enfermagem',function(){
+  navigator.notification.alert("O técnico de enfermagem é responsável por auxiliar o enfermeiro em procedimentos simples, como medição de pressão arterial, diabetes, coletas básicas e afins. Suas funções também são auxiliares no processo de recuperação, como troca de curativos e aplicações simples de medicamentos.",retorno,"Técnico em Enfermagem","Fechar");
+});
