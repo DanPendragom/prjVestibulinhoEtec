@@ -20,3 +20,8 @@ $(document).on('click','#turismo',function(){
 $(document).on('click','#enfermagem',function(){
   navigator.notification.alert("O técnico de enfermagem é responsável por auxiliar o enfermeiro em procedimentos simples, como medição de pressão arterial, diabetes, coletas básicas e afins. Suas funções também são auxiliares no processo de recuperação, como troca de curativos e aplicações simples de medicamentos.",retorno,"Técnico em Enfermagem","Fechar");
 });
+
+
+$(document).on('click','#administracao',function(){
+  navigator.notification.alert("Curso Técnico em Administração. Este curso visa formar profissionais capacitados a exercer as mais diversas funções de apoio em uma empresa, principalmente as que envolvam gestão de recursos humanos, materiais, financeiros, mercadológicos, logísticos e da informação",retorno,"Técnico Em Administração","Fechar");
+});
