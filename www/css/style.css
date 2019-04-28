@@ -90,3 +90,43 @@ section#pg1 img{
   margin-top: -80px;
   width: 50%;
 }
+#bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0,0, 0, 0.5);
+  display: none;
+}
+.box{
+  width: 505px;
+  height: 800px;
+  position: absolute;
+  margin-left: -320px;
+  left: 50%;
+  top: -410px;
+  background-color: white;
+
+}
+#close{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+#close:hover{
+   opacity: .6;
+}
+#bg:target{
+  display: block;
+}
+#bg:target ~ .box{
+  top: 150px;
+  transition: all .3s;
+  transition-delay: .2s;
+}
+
