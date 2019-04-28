@@ -21,6 +21,7 @@
   <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script> 
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
   <script type="text/javascript" src="js/modais.js"></script>
+  <script type="text/javascript" src="js/musica.js"></script>
   <!--INSTALAÇÃO VIA CDN -->
   <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
   <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>  -->
@@ -64,19 +65,15 @@
 				<button class="cn-button" id="cn-button">SAIBA+</button>
 				<div class="cn-wrapper" id="cn-wrapper">
 					<ul>
-						<li id="opc1"><a href="#pg2"><span>Progr.</span></a></li>
+						<li id="programacao"><a><span>Progr.</span></a></li>
 						<li id="manutencao" ><a><span>Manut.</span></a></li>
 						<li id="edific"><a><span>Edific.</label></span></a></li>
-						<li id=""><a href="#"><span>Sobre</label></span></a></li>
+						<li id="porque"><a href="#"><span>Sobre</label></span></a></li>
 						<li id="turismo"><a href="#"><span>Turismo</span></a></li>
 						<li id="enfermagem"><a href="#"><span>Enferm.</span></a></li>
 						<li id="administracao"><a href="#"><span>Admin</span></a></li>
 					 </ul>
 				</div>
-            <!-- Modal Manutenção -->
-         
-           
-            
 				<!-- FIM -->
 			</div>
 		</div><!-- /CONTAINER -->
@@ -94,30 +91,30 @@
            <div class="botoesStyle row">
              <div class="col-xs-12">
               <!-- INCRIÇÃO -->
-              <button class="btnSobre" id="btnInsc">+</button>
+              <button class="btnSobre" id="btnInsc"></button>
               <aside class="container asideSectionStyle" id="insc">
                 <h4>Incrições de 10/04 até as 15h do dia 15/05/2019</h4>
                 <h4>Prova 16/06</h4>  
                 <a style="display:block; float: right;margin-bottom:8px;"href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp">Iniciar Inscrição</a>
               </aside></br>
               <!-- INSTITUCIONAL -->
-              <button class="btnSobre" id="btnInst">+</button>
+              <button class="btnSobre" id="btnInst"></button>
               <aside class="container asideSectionStyle" id="inst">
                 <p><span>O Centro Paula Souza (CPS)</span> é uma instituição de ensino do Governo do Estado de São Paulo presente em aproximadamente 300 municípios, ele administra 223 Escolas Técnicas (Etecs) com 291 mil alunos em cursos técnicos de nível médio e superiores tecnológicos.</p>
 
                 <p>As Etecs atendem aproximadamente 208 mil estudantes nos Ensinos Técnico, Médio e Técnico Integrado ao Médio, com 151 cursos técnicos para os setores industrial, agropecuário e de serviços, incluindo habilitações nas modalidades presencial, semipresencial, online, Educação de Jovens e Adultos (EJA) e especialização técnica.  </p>
               </aside></br>
-              <button class="btnSobre" id="btnGps">+</button>
-              <aside style="padding:5px;"class="container asideSectionStyle " id="gps">
+              <button class="btnSobre" id="btnGps"></button>
+              <aside class="container asideSectionStyle " id="gps">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.2266796572526!2d-46.678060848416536!3d-24.12057046943883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce27e8f7751d31%3A0x6382eb95def97024!2sEtec+Adolpho+Berezin!5e0!3m2!1spt-BR!2sbr!4v1556218982073!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border-radius:15px" ></iframe>
               </aside></br>
-              <button class="btnSobre" onClick ="shareDemo()" value ="shareDemo" />+</button>
+              <button class="btnSobre" id="btnShare"onClick ="shareDemo()" value ="shareDemo" /></button>
              </div>
            </div>
          </div>
       </section>   
     </section>
-    
+    <audio id="player" src="media/vingadores.mp3" ></audio>
     <!-- SCRIPTS DO MENU -->
 		<script src="js/polyfills.js"></script>
 		<script src="js/demo2.js"></script>
