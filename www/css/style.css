@@ -7,25 +7,20 @@
          url('../fonts/AVENGEANCEHEROICAVENGERAT.ttf') format('truetype'),
          url('../fonts/AVENGEANCEHEROICAVENGERAT.svg#AVENGEANCEHEROICAVENGERAT') format('svg');
 }
-#pg1{
-  /* BACKGROUND - SE HOUVER */
-}
-p , h4{
-}
 .asideSectionStyle a{
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bolder;
-  padding: 5px;
+  padding: 5px 15px 5px 15px;
   border-radius: 15px 15px;  
   font-size: 20px;
   transition: 0.8s;
   border: 3px solid white;
 }
 .asideSectionStyle a:hover{
-  background-color:red;
+  background-color:rgb(185, 50, 84);
   color: white;
-    border: 3px solid red;
+  border: 3px solid rgb(185, 50, 84);
 }
 .asideSectionStyle{
   width: 95%;
@@ -40,7 +35,6 @@ p , h4{
   margin-top:-250px;
   border-radius: 5%;
 }
-/*algo aleatorio */
 p{
   text-align: justify;
   text-indent: 1.5em;
